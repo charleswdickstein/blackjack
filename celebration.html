@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Celebration</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+<img src="blackjack_celebration.gif" id="animation" style="width:200px; display:inline-block;">
+<br/>
+<button id="myButton" style="visibility:hidden" onclick="window.close()">Close Window</button>
+<!--<div id="div2" style="visibility: hidden">Reveal Div 2 after 5 seconds</div>-->
+<script type="text/javascript">
+	function showIt2() {
+  document.getElementById("myButton").style.visibility = "visible";
+  document.getElementById("animation").style.display = "none";
+}
+setTimeout("showIt2()", 2000); 
+</script>
+</body>
+</html>
